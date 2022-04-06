@@ -2,7 +2,7 @@
 RESULT:
 ![image](https://user-images.githubusercontent.com/93418572/161906980-f8c84ceb-dd4d-464b-bee1-d2a2236a47c9.png)
 Befor passing the inputs:
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/93418572/161907957-f4adb8c0-5663-4b7c-8830-686b1ba7001e.png)
 After passing the inputs:
 ![image](https://user-images.githubusercontent.com/93418572/161907255-cb18e058-8ff3-4f5a-b9a2-f04bdf576e3e.png)
 Final result:
