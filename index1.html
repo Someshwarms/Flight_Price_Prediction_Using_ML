@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    body {
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-color: #87CEEB;
+    background-image: url('https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/539523/airplane-takeoff-getty.jpg&w=2000&op=resize');
+  }</style>
+    <meta charset="UTF-8">
+    <title>Flight Price Predictor</title>
+</head>
+<body>
+<form method="post" action="/predict">
+
+        <label>Which AIRLINE?</label><br>
+        <input type="text" name="Airline"><br><br>
+
+        <label>How many SOURCE are there?</label><br>
+        <input type="text" name="Source"><br><br>
+
+        <label>How many DESTINATION are there?</label><br>
+        <input type="text" name="Destination"><br><br>
+
+        <label>How many STOPS are there?</label><br>
+        <input type="text" name="Total_Stops"><br><br>
+
+
+        <label>Is there any ADDITIONAL INFO?</label><br>
+        <input type="text" name="Aditional_Info"><br><br>
+
+        <label>what is the DAY?</label><br>
+        <input type="text" name="Journey_Day"><br><br>
+
+        <label>what is the MONTH?</label><br>
+        <input type="text" name="Journey_Month"><br><br>
+
+        <label>which YEAR?</label><br>
+        <input type="text" name="Journey_Year"><br><br>
+
+        <label>what is the DEPARTURE HOUR?</label><br>
+        <input type="text" name="Departure_hour"><br><br>
+
+        <label>What is the DEPARTURE MINUTE?</label><br>
+        <input type="text" name="Departure_minute"><br><br>
+
+        <label>what is the ARRIVAL HOUR?</label><br>
+        <input type="text" name="Arrival_hour"><br><br>
+
+        <label>what is the ARRIVAL MINUTE?</label><br>
+        <input type="text" name="Arrival_minute"><br><br>
+
+        <label>what is the DURATION HOUR?</label><br>
+        <input type="text" name="Duration_hour"><br><br>
+
+        <label>what is the DURATION MINUTE?</label><br>
+        <input type="text" name="Duration_minute"><br><br>
+
+        <input type="submit" value="Predict"><br><br>
+    </form>
+</body>
+</html>
